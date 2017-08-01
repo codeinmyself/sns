@@ -1,0 +1,44 @@
+
+#loginSide-nav{
+    width:240px;
+    height: auto;
+    margin-top: 12px;
+    position: absolute;
+    background-color: #F2F2F2;
+    box-shadow: 4px 4px 4px #ACACAC;
+    top: 240px;
+}
+#loginSide-nav nav ul li .triangle{
+    float: right;
+    border-right: 24px solid #F2F2F2;
+    border-left: 24px solid transparent;
+    border-top: 24px solid transparent;
+    border-bottom: 24px solid transparent;
+    margin-top:-12px;
+    margin-right: -12px;
+}
+#loginSide-nav nav ul li img{
+    margin-left: 14px;
+    width: 22px;
+    display: inline-block;
+    vertical-align:middle;
+}
+#loginSide-nav nav ul li a{
+    color: #000;
+    font-weight: bold;
+    font-size: 1em;
+    display: inline-block;
+    vertical-align: middle;
+}
+#loginSide-nav nav ul li {
+    padding: 16px;
+    cursor: pointer;
+}
+#loginSide-nav nav ul li:hover{
+    background-color: #cccccc;
+}
+#loginSide-nav nav ul .side-border{
+    border-top: 1px solid #cccccc;
+    margin: 0 6px;
+    padding-bottom: -4px;
+}

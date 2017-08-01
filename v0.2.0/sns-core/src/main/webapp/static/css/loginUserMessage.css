@@ -1,0 +1,52 @@
+#userMessage {
+    width: 240px;
+    height: 240px;
+/*    position: absolute;*/
+    float: left;
+    margin-right: 20px;
+    background-color: #F2F2F2;
+    box-shadow: 4px 4px 4px #ACACAC;
+}
+#userMessage div img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin:22px 66px 16px;
+}
+#userMessage div p {
+    text-align: center;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+#userMessage div{
+    text-align: center;
+    display: inline-block;
+    margin:0 auto;
+}
+#userMessage table{
+    margin:0 auto;
+    border-collapse: collapse;
+}
+#userMessage div #userMessageContent tr td{
+    color: #93247a;
+    font-weight: bold;
+    padding: 0 16px;
+}
+#userMessage div #userMessageContent tr td:nth-child(2){
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+#userMessage div a+a{
+    border-left: 1px solid #000;
+    padding-top: 20px;
+}
+
+#userMessage div #circleContent tr td{
+    color: #93247a;
+    font-weight: bold;
+    padding: 0 16px;
+}
+#userMessage div #circleContent tr td:nth-child(2){
+    border-left: 1px solid #000;
+}

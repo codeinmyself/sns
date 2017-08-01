@@ -1,0 +1,111 @@
+#main-show{
+    float: left;
+    width: 660px;
+    margin-left:215px;
+}
+.main-show-inner{
+/*    background-color: #F2F2F2;
+    box-shadow: 4px 4px 4px #ACACAC;
+    margin-bottom: 15px;
+    padding:10px;
+    width:660px;
+    font-family:'Microsoft YaHei';*/
+    background-color: #F2F2F2;
+    box-shadow: 4px 4px 4px #ACACAC;
+    margin-bottom: 12px;
+}
+.main-show-innner-delete{
+float:right;
+line-height:50px;
+height:50px;
+color:gray;
+font-family:'Microsoft YaHei';
+font-size:14px;
+}
+.main-show-inner a img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+    margin: 15px 15px;
+}
+.main-show-inner .main-show-message{
+    float: left;
+    margin-left: 12px;
+    margin-top: 26px;
+}
+.main-show-inner .main-show-message p{
+    font-weight: bold;
+}
+.main-show-inner .main-show-message span{
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 0.6em;
+}
+.newsBtn{
+    padding: 4px 24px;
+    border:2px solid #93247a;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #93247a;
+    background-color: #ffffff;
+    margin:10px 16px;
+    cursor: pointer;
+}
+.main-show-inner button{
+    padding: 4px 24px;
+    border:2px solid #93247a;
+    float: right;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #93247a;
+    background-color: #ffffff;
+    margin:10px 16px;
+    cursor: pointer;
+}
+.main-show-inner button:hover{
+    background-color: #93247a;
+    color: #ffffff;
+}
+.main-show-inner .main-show-user-comment{
+    width: 95%;
+    float: left;
+    clear: left;
+    display: block;
+    font-size: 1em;
+    margin-left: 18px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #cccccc;
+}
+.main-show-inner .main-show-comment-img{
+    width: 95%;
+    float: left;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 18px;
+}
+.main-show-inner .main-show-comment-img img:first-child{
+   clear: left;
+}
+.main-show-inner .main-show-comment-img img{
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin: 15px 15px;
+}
+.main-show-inner .main-show-comment-buttons{
+    clear: left;
+    text-align: center;
+}
+.main-show-inner .main-show-comment-buttons ul li{
+    display: inline-block;
+    padding: 0px 50px;
+    margin:10px 0;
+}
+.main-show-inner .main-show-comment-buttons ul li+li{
+    border-left: 1px solid #cccccc;
+}
+.main-show-inner .main-show-comment-buttons ul li img{
+    display: inline-block;
+    vertical-align: middle;
+    width:20px;
+}

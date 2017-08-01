@@ -1,0 +1,328 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+}
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+
+#circle-content {
+
+    width: 790px;
+    height: auto;
+    min-height: 800px;
+    margin-left: 260px;
+}
+
+.artCircle-rightbar {
+    width: 770px;
+    background-color: #F2F2F2;
+    height: auto;
+    min-height: 700px;
+    padding:10px;
+    float: left;
+    box-shadow: 5px 5px 5px #ACACAC;
+    font-family: 'Microsoft YaHei','Adobe Fan Heiti Std';
+}
+
+.artCircle-rightbar-edit {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-family: 'Microsoft YaHei','Adobe Fan Heiti Std';
+}
+
+    .artCircle-rightbar-edit img {
+        width: 250px;
+        height: 250px;
+    }
+
+.artCircle-rightbar-short {
+    width: 790px;
+    background-color: #F2F2F2;
+    height: 350px;
+    padding: 10px;
+    float: left;
+    box-shadow: 5px 5px 5px #ACACAC;
+    font-family: 'Microsoft YaHei';
+}
+
+    .artCircle-rightbar-short img {
+        width: 230px;
+        height: 230px;
+    }
+
+.artCircle-rightbar-short-imgtitle {
+    float: left;
+    margin-left: 50px;
+    font-family: 'Microsoft YaHei';
+    text-align: center;
+}
+
+.artCircle-LBbutton-active {
+    background-color: #93247A;
+    color: white;
+    line-height: 38px;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-family: 'Microsoft YaHei';
+    margin-bottom: 5px;
+}
+
+.artCircle-LBbutton {
+    height: 38px;
+    color: black;
+    line-height: 38px;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-family: 'Microsoft YaHei';
+    margin-bottom: 5px;
+}
+
+.artCircle-myjoin {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #AEAEAE;
+    padding: 10px;
+    margin: 10px;
+    height: 70px;
+}
+
+.artCircle-myjoin2 {
+    border-color: #AEAEAE;
+    padding: 10px;
+    margin: 10px;
+    height: 60px;
+}
+
+.artCircle-myjoin > .artCircle-myjoin-content1 {
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.artCircle-myjoin-content1 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+.artCircle-myjoin > .artCircle-myjoin-content2 {
+    float: left;
+    margin-left: 20px;
+}
+
+.artCircle-myjoin-content2 > .artCircle-myjoin-h1 {
+    font-family: 'Adobe Heiti Std';
+    font-size: 18px;
+}
+
+.artCircle-myjoin-content2 > .artCircle-myjoin-h2 {
+    font-family: 'Microsoft YaHei';
+    font-size: 12px;
+}
+
+button.mybutton1 {
+    float: right;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    width: 90px;
+    border: solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-color: #93247A;
+    border-width: 1px;
+    background-color: transparent;
+    color: #93247A;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.artCircle-myjoin > .artCircle-myjoin-h3 {
+    float: right;
+    font-size: 14px;
+    color: gray;
+    line-height: 70px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+button.mybutton2 {
+    float: right;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    border: solid;
+    margin-top: 20px;
+    border-color: #93247A;
+    border-width: 1px;
+    background-color: #93247A;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button.mybutton3 {
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    border: solid;
+    margin-top: 20px;
+    border-color: #93247A;
+    border-width: 1px;
+    background-color: #93247A;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input.inputblank {
+    width: 365px;
+    height: 30px;
+    font-family: 'Microsoft YaHei';
+    border-bottom-style: solid;
+    border-radius: 5px;
+    background-color: white;
+    border-color: #DF7DC9;
+    border-width: 1px;
+}
+
+select.selectblank {
+    width: 365px;
+    height: 30px;
+    font-family: 'Microsoft YaHei';
+    border-color: #AEAEAE;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+textarea.text {
+    width: 365px;
+    height: 80px;
+    border-radius: 5px;
+    border-color: #DF7DC9;
+    border-width: 1px;
+}
+
+.artCircle-notice {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #AEAEAE;
+    padding: 10px;
+    margin: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.notice-bar {
+    width: 100%;
+    height: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #AEAEAE;
+    padding-bottom: 2px;
+    font-family: 'Microsoft YaHei';
+}
+
+.noticebt-active {
+    width: 150px;
+    text-align: center;
+    line-height: 30px;
+    border-bottom-style: solid;
+    border-bottom-color: #93247A;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.noticebt {
+    width: 150px;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Microsoft YaHei','Adobe Heiti Std';
+    display: inline-block;
+    cursor: pointer;
+}
+
+.search {
+    width: 695px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    border-color: #DF7DC9;
+    border-width: 1px;
+}
+
+.artCircle-management-search {
+    width: 770px;
+    background-color: #F2F2F2;
+    margin-bottom: 12px;
+    padding-left:10px;
+    padding-right:10px;
+    height: 90px;
+    font-family: 'Microsoft YaHei','Adobe Heiti Std';
+    vertical-align: top;
+    box-shadow: 5px 5px 5px #AEAEAE;
+}
+
+button.artCircle-search-button {
+    clear: left;
+    font-weight: bold;
+    width: 53px;
+    border-radius: 5px;
+    border: solid;
+    border-color: #93247A;
+    border-width: 1px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #93247A;
+    background-color:transparent;
+}
+
+button:hover {
+    background-color: #93247a;
+    color: #ffffff;
+}
+
+.artCircle-activity-title {
+    width: 790px;
+    background-color: #F2F2F2;
+    height: 210px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #ACACAC;
+    text-align: center;
+    font-family: 'Microsoft YaHei','Adobe Fan Heiti Std';
+    margin-bottom: 15px;
+}
+
+    .artCircle-activity-title img {
+        height: 90px;
+        width: 90px;
+        margin-top: 30px;
+        border-radius: 90px;
+    }
+    .artCircle-activity-title span {
+        font-size:12px;
+    }

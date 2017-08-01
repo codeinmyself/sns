@@ -1,0 +1,59 @@
+/* CSS Document */
+body{
+  background:#f1f1f1;
+  color:#999999;
+  }
+a{
+ text-decoration:none;
+ color:#999999;
+ }
+#icon{
+  margin:0 auto;
+  width:100px;
+  height:100px;
+  margin-top:80px;
+  }
+#login{
+  margin:0 auto;
+  width:300px;
+  height:250px;
+  background:#FFFFFF;
+  border:#CCCCCC;
+  box-shadow: 0px 0px 8px #DADADA;
+  padding:30px;
+  margin-top:30px;
+ }
+
+#label{
+  font:"Microsoft YaHei UI" 18px;
+  margin-bottom:5px;
+  }
+#inputtext{
+  height:30px;
+  width:100%;
+  margin-bottom:15px;
+}
+#inputpassword{
+  height:30px;
+  width:100%;
+  margin-bottom:15px;
+}
+#logbutton{
+  float:right;
+  text-decoration:none;
+  border:none;
+  margin-left:90px;
+  width:60px;
+  height:30px;
+  background:#0099CC ;
+  color:#FFFFFF;
+  cursor:pointer;
+}
+#logbutton:hover
+{
+  background-color:#00CCCC;
+}
+#forget{
+  margin-top:30px;
+  font-size:14px;
+  }

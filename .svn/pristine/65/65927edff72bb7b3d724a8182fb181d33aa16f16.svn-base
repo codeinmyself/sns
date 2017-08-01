@@ -1,0 +1,51 @@
+#loginMasterpieces{
+    position: fixed;
+    float: right;
+    width:180px;
+    height: auto;
+    background-color: #F2F2F2;
+    box-shadow: 4px 4px 4px #ACACAC;
+    clear: right;
+    top:52px;
+    margin-left:890px;
+}
+#loginMasterpieces ul li {
+    font-size: 0.8em;
+    padding: 12px 12px;
+}
+#loginMasterpieces ul li a {
+    color: #000;
+    display: inline-block;
+    vertical-align: middle;
+}
+#loginMasterpieces ul li+li{
+    border-top: 1px solid #cccccc;
+}
+#loginMasterpieces ul li:first-child{
+    background-color: #93247A;
+    text-align: center;
+    font-size:1em;
+    color: #ffffff;
+}
+#loginMasterpieces ul .masterpieces-first{
+    padding-left: 48px;
+    padding-right: 0px;
+    overflow: hidden;
+}
+#loginMasterpieces ul .masterpieces-first div{
+    padding-left: 32px;
+}
+#loginMasterpieces ul .masterpieces-first .masterpieces-best{
+    width:60px;
+    height: 60px;
+    float: left;
+    margin-left: -44px;
+}
+.masterpieces-number{
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#loginMasterpieces ul .masterpieces-first p{
+    color: #9b9a9a;
+}

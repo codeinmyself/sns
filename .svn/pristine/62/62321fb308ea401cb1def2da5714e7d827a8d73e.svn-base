@@ -1,0 +1,173 @@
+/* CSS Document */
+/*//////////////////all users//////////////////////////*/
+ul li{  list-style-type: none; padding:0; margin:0;}
+a{ text-decoration:none; color:#333333;}
+#follow-nav{
+  text-align:left;
+  height:50px;
+  border-bottom:#CCCCCC solid thin;
+   }
+#follow-nav li{
+  float:left;
+  padding:20px 30px;
+  padding-bottom:5px;
+  }
+#follow-nav #newgroup{ position:relative;left:450px;color:#93247a; cursor:pointer;}
+#follow-people{
+  padding:20px;
+  }
+#peoplecard{
+  float:left;
+  width:300px;
+  height:120px;
+  padding:15px;
+  background-color:#FFFFFF;
+  box-shadow: 0px 0px 2px #ACACAC;
+  margin:20px 20px 0px 20px;
+}
+#peoplecard img{
+  width:120px;
+  height:120px;
+  float:left;
+  margin-right: 10px;}
+#peoplecard p{
+  font:12px;
+  margin-bottom:15px;}
+  
+#peoplecard button{
+    border:2px solid #93247a;
+    border-radius: 3px;
+    font-weight: bold;;
+    color: #93247a;
+    background-color: #ffffff;
+    width:80px;
+	height:30px;
+	padding:5px;
+    cursor: pointer;
+	}
+
+#peoplecard button:hover {
+    background-color: #93247a;
+    color: #ffffff;
+}
+/*//////////////////my groups//////////////////////////*/
+#nav {
+ width:80%;
+ line-height: 50px; 
+ list-style-type: none;
+ text-align:left;
+ padding:0;margin:30px 10% 0 10%;
+ border:#CCCCCC solid thin;
+}
+#nav li{
+  padding-left:20px;
+  background:#FFFFFF;
+  border-top:#CCCCCC solid thin;
+  }
+#group-name{
+    width:80%;
+    float: left;
+}
+
+/*==================һ��Ŀ¼===================*/
+#nav a {
+ width: 100%; 
+ display: block;
+ }
+#nav a:link  {
+ color:#333; text-decoration:none;
+}
+
+#nav a:hover  {
+  color:#333;text-decoration:none;font-weight:bold;
+}
+#nav img{width:30px; height:30px;margin:5px;}
+/*==================����Ŀ¼===================*/
+#nav li ul {
+ list-style:none;
+ text-align:left;
+  background:#666666;
+  padding:0;margin:0px;
+
+}
+
+#nav li ul a{    
+  width:100%;
+}
+/*�����Ƕ���Ŀ¼��������ʽ*/
+#nav li ul a:link  {
+ color:#333; text-decoration:none;
+}
+#nav li ul a:visited  {
+ color:#333;font-weight:bold;
+}
+#nav li ul a:hover {
+ text-decoration:none;
+ font-weight:bold;
+}
+#nav ul.collapsed {
+ display: none;
+}
+
+#usercard-long{
+  width:550px;
+  height:60px;
+  padding:10px 0px 10px 10px;
+  background-color:#FFFFFF;
+}
+#usercard-long img{
+  margin:0px;
+  width:60px;
+  height:60px;
+  float:left;
+  }
+#usercard-long-content{
+  font-size:12px;
+  line-height:30px;
+  margin-left: 15px;
+  height:60px;
+  float:left;
+  width:280px;}
+  
+#usercard-long button{
+    border:2px solid #93247a;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #93247a;
+    background-color: #ffffff;
+    width:80px;
+	height:30px;
+	margin-left:10px;
+	margin-top:15px;
+    cursor: pointer;
+	
+	}
+
+#usercard-long button:hover {
+    background-color: #93247a;
+    color: #ffffff;
+}
+#usercard-long select {
+    width:80px;
+    height: 30px;
+    border:2px solid #93247a;
+    border-radius: 3px;
+    background:#fff;
+    text-decoration:none;
+    color: #93247a;
+    font-weight: bold;
+}
+#usercard-long select:hover{color: #ffffff;background-color: #93247a;}
+
+#follow-name{font-size:16px;}
+#follow-intro{
+    color:#929292;
+    font-size:14px;
+    width:150px; //你所要的宽度
+height:20px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    overflow: hidden;
+}
+

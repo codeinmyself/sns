@@ -1,0 +1,53 @@
+/* CSS Document */
+a {text-decoration:none;} 
+#left{
+ margin:0;
+ color:#333333;
+ font:"Microsoft YaHei UI";
+ font-weight:bold;
+ width:240px;
+ height:1000px;
+ float:left;
+ margin-right:15px;
+ 
+}
+
+
+/*////////////////////////////////////left side//////////////////////////////////////////////////*/
+#user{ 
+  background-color:#F2F2F2;
+ 
+  box-shadow: 4px 4px 4px #ACACAC;
+  float:left
+ }
+#userpic{
+ height:140px;}
+
+/*#username{
+height:30px;
+text-align:center;}*/
+
+#userinformation{
+height:70px;}
+
+#attention,#line,#fans,#dynamic{
+float:left;
+width:32%;
+height:70px;
+text-align:center;
+padding-top:15px;
+line-height:25px;}
+
+#line{
+width:1px;
+}
+
+.noticeNumber{
+    border-radius: 50%;
+    background-color: #ff9966;
+    font-weight: bolder;
+    padding:6px 8px 6px 6px;
+    font-size:0.6em;
+}
+
+

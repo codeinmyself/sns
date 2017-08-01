@@ -1,0 +1,170 @@
+#loginmain-show{
+    width: 620px;
+    margin-left: 255px;
+}
+#loginMainshow .outer{
+    background-color: #F2F2F2;
+    margin-bottom: 12px;
+    box-shadow: 4px 4px 4px #ACACAC;
+}
+ #loginMainshow .headPic img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+    margin: 15px 15px;
+}
+ #loginMainshow #commentSend{
+     margin: 15px 15px 60px;
+ }
+
+ #commentSendBtn {
+     float:right;
+     margin: 15px 15px;
+ }
+#loginMainshow #commentSend #commentSendContent{
+    width: 580px;
+    height: 200px;
+    font-size: 1.2em;
+    resize: none;
+}
+ #loginMainshow h3{
+     margin-left: 33px;
+     margin-right: 33px;
+     border-bottom: 1px solid #cacaca;
+
+ }
+ #loginMainshow .commentNickname{
+     display: inline-block;
+     margin-top: 16px;
+     font-size: 0.6em;
+ }
+#loginMainshow .commentTime{
+    font-size: 0.6em;
+    float: right;
+    margin-top: 16px;
+    color: #c0c0c0;
+}
+#loginMainshow .firstLayer{
+    display: block;
+    margin: 0px 33px 0px 22px;
+    padding: 0px 15px 0px;
+}
+#loginMainshow .secondLayer{
+    display: block;
+    margin: 0px 33px 0px 88px;
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+    padding: 0px 15px 0px;
+}
+#loginMainshow .firstLayer img,#loginMainshow .secondLayer img{
+    width: 35px;
+    height: 35px;
+}
+#commentReplyList{
+    margin-left: 80px;
+}
+#loginMainshow form textarea{
+    width: 250px;
+    height: 100px;
+    margin-bottom: -9px;
+    resize: none;
+}
+.getReplyListBtn,.cancelReplyListBtn{
+    display: inline-block;
+    margin: 5px 0px 5px 0px;
+    font-size: 0.6em;
+    padding: 4px 12px;
+    color: #00b7ee;
+}
+ #loginMainshow .main-show-message{
+    float: left;
+    margin-left: 12px;
+    margin-top: 26px;
+}
+ #loginMainshow .main-show-message p{
+    font-weight: bold;
+}
+ #loginMainshow .main-show-message span{
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 0.6em;
+}
+ #loginMainshow .slideButton{
+     float:right;
+     text-align: center;
+     margin:10px 16px;
+ }
+#loginMainshow .slideButton li+li{
+    margin-top: 0px;
+    border: 2px solid #93247a;
+    border-top: none;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 0.8em;
+    display: none;
+}
+#loginMainshow .slideButton li a{
+    color: inherit;
+}
+#loginMainshow .slideButton li:hover{
+    background-color: #93247a;
+    color: #fff;
+}
+ #loginMainshow button{
+    padding: 0px 26px;
+    border:2px solid #93247a;
+    border-radius: 3px;
+    font-weight: bold;;
+    color: #93247a;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+ #loginMainshow button:hover{
+    background-color: #93247a;
+    color: #ffffff;
+}
+ #loginMainshow .main-show-user-comment{
+    width: 95%;
+    float: left;
+    display: block;
+    font-size: 1em;
+    margin-left: 18px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #cccccc;
+}
+ #loginMainshow .main-show-comment-img{
+    width: 95%;
+    float: left;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 18px;
+}
+ #loginMainshow .main-show-comment-img img:first-child{
+    clear: left;
+}
+ #loginMainshow .main-show-comment-img img{
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin: 15px 15px;
+    cursor: pointer;
+}
+ #loginMainshow .main-show-comment-buttons{
+    clear: left;
+    text-align: center;
+     border-bottom: 1px solid #cacaca;
+     margin: 15px 15px;
+}
+ #loginMainshow .main-show-comment-buttons ul li{
+    display: inline-block;
+    padding: 0px 60px;
+    margin:10px 0;
+}
+ #loginMainshow .main-show-comment-buttons ul li+li{
+    border-left: 1px solid #cccccc;
+}
+#loginMainshow .main-show-comment-buttons ul li img{
+    display: inline-block;
+    vertical-align: middle;
+    width:20px;
+}

@@ -1,0 +1,124 @@
+#userMessage-main-outer{
+    width: 820px;
+    margin: 0 auto;
+}
+#userMessageList{
+    width: 540px;
+    background-color: transparent;
+    padding: 65px;
+    margin: 12px auto ;
+    text-align: left;
+}
+#userMessageList form label p{
+    border-bottom: 1px solid #93247a;
+    margin-bottom: 24px;
+}
+.passwordLabel,.headPicLabel{
+    margin-top: 66px;
+}
+#userMessageList form input[type="file"]{
+    display: none;
+}
+#userMessageList form input[type="text"],#userMessageList form input[type="password"],#viewer {
+    display: block;
+    padding: 10px 32px;
+    border:none;
+    border-radius: 5px;
+    margin:22px auto;
+}
+#viewer{
+    float: right;
+    margin-top: 120px;
+    margin-right: 160px;
+}
+#imgShower{
+    height:160px;
+    margin:22px 44px;
+    background-color: #f2f2f2;
+}
+#imgShower img{
+    width:160px;
+    height:160px;
+    float: left;
+    background-color: #fff;
+}
+#userMessageList form input:nth-child(2){
+    background: url("../img/icon/register-user.png") 3px 4px no-repeat #ffffff;
+    background-size: 26px;
+}
+#userMessageList form input:nth-child(3){
+    background: url("../img/icon/register-email.png") 3px 4px no-repeat #ffffff;
+    background-size: 26px;
+}
+#userMessageList form input:nth-child(4){
+    background: url("../img/icon/register-mobile.png") 3px 4px no-repeat #ffffff;
+    background-size: 26px;
+}
+#userMessageList form input:nth-child(5){
+    background: url("../img/icon/register-nickname.png") 3px 4px no-repeat #ffffff;
+    background-size: 26px;
+}
+#userMessageList form input[type='password']{
+    background: url("../img/icon/register-lock.png") 3px 4px no-repeat #ffffff;
+    background-size: 26px;
+}
+#userMessageList form input+input{
+    margin-top: 24px;
+}
+#userMessageList form span{
+    font-size: 0.7em;
+    margin-top: 24px;
+}
+#userMessageList form select{
+    font-size: 0.4em;
+    font-size: 0.6em\9;
+    padding: 10px 32px;
+    padding: 10px 0px 10px 32px\9;
+    margin: 24px 0;
+    border-radius: 5px;
+    border:none;
+    display: block;
+    width: 100%;
+    color: #aeaeae;
+    background: url("../img/icon/register-artist.png") 2px 4px no-repeat #ffffff;
+}
+.saveBtnStyle{
+    display: block;
+    margin:12px 40px 2px;
+    padding: 6px 40px;
+    float: right;
+    border:none;
+    background-color: #93247a;
+    color: #ffffff;
+    font-size: 0.8em;
+    font-weight: bold;
+    cursor: pointer;
+}
+#saveBtn:hover{
+    outline: 1px solid;
+    outline-color: #ff9966;
+}
+.selfInfo{
+    border-radius: 6px;
+    border:none;
+    padding:6px;
+    width:406px;
+    height: 60px;
+    margin-left: 6px;
+    resize: none;
+}
+.selfInfoTitle{
+    margin-left: 44px;
+    vertical-align: top;
+}
+#setMsg{
+    margin-left: 44px;
+}
+.note{
+    color: red;
+    font-size: 0.6em;
+    margin-top: 4px;
+    margin-left: 44px;
+    height: 24px;
+    width: 200px;
+}

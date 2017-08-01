@@ -1,0 +1,101 @@
+body{
+
+    text-align: center;
+    background:url("../img/icon/register-body.png") no-repeat;
+    background-size: cover;
+}
+#registerList{
+    background-color: #F2F2F2;
+    display: inline-block;
+    padding: 12px 25px 25px 25px;
+    margin-top: 28px;
+    box-shadow: 0px 0px 24px #CCCCCC;
+    text-align: left;
+    font-size: 1.4em;
+    font-family: "微软雅黑";
+}
+.tabName{
+    display: inline-block;
+    margin-left: 36px;
+    cursor: pointer;
+}
+.tabNameActive{
+    border-bottom: 3px solid #93247a;
+}
+#emailUserList{
+    display: none;
+}
+#registerList form label p{
+    margin-bottom: 24px;
+}
+
+#registerList form input[type="text"],#registerList form input[type="password"]{
+    display: block;
+    padding: 10px 32px;
+    border:none;
+    border-radius: 5px;
+}
+#registerList form input[name="username"]{
+    background: url("../img/icon/register-user .png") 3px 4px no-repeat #ffffff;
+    background-size: 26px;
+}
+#registerList form input[name="password"]{
+    background: url("../img/icon/register-lock.png") 3px 4px no-repeat #ffffff;
+    background-size: 26px;
+}
+#registerList form #emailUser,#phoneEmail{
+    background: url("../img/icon/register-email.png") 3px 4px no-repeat #ffffff;
+    background-size: 26px;
+}
+#registerList form #emailMobile,#phoneUser{
+    background: url("../img/icon/register-mobile.png") 3px 4px no-repeat #ffffff;
+    background-size: 26px;
+}
+#registerList form input[name="nickname"]{
+    background: url("../img/icon/register-nickname.png") 3px 4px no-repeat #ffffff;
+    background-size: 26px;
+}
+
+#registerList form input:nth-child(6){
+    margin-top: 24px;
+}
+#registerList form span{
+    font-size: 0.7em;
+    margin-top: 24px;
+}
+#registerList form select{
+    font-size: 0.4em;
+    font-size: 0.6em\9;
+    padding: 10px 32px;
+    padding: 10px 0px 10px 32px\9;
+    margin: 24px 0;
+    border-radius: 5px;
+    border:none;
+    display: block;
+    width: 100%;
+    color: #aeaeae;
+    background: url("../img/icon/register-artist.png") 2px 4px no-repeat #ffffff;
+}
+#emailRegisterButton,#phoneRegisterButton{
+    display: block;
+    margin:6px auto;
+    padding: 6px 120px;
+    border:none;
+    background-color: #93247a;
+    color: #ffffff;
+    font-size: 0.8em;
+    font-weight: bold;
+    cursor: pointer;
+}
+#registerBtn:hover{
+    outline: 1px solid;
+    outline-color: #ff9966;
+}
+.note{
+    color: red;
+    font-size: 0.6em;
+    margin-top: 4px;
+    margin-left: 4px;
+    height: 24px;
+    width: 200px;
+}
